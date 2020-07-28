@@ -1,0 +1,42 @@
+body {
+	background: whitesmoke;
+}
+h1{
+	text-align: center;
+}
+#addbutton {
+	background: none;
+	border: 1px dotted grey;
+	text-decoration: bold;
+	font-size: 18px;
+}
+
+input {
+	background: none;
+}
+
+.main {
+	text-align: center;
+}
+
+#tasks {
+	height: auto;
+	background: white;
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px dashed black;
+	padding: 15px;
+	list-style: none;
+}
+
+#tasks li {
+	height: 30px;
+	border-style: inset;
+}
+
+#tasks li p{
+	display: inline;
+	margin: 30px;
+}
+
